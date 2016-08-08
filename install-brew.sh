@@ -55,7 +55,7 @@ brew linkapps macvim
 brew install node
 
 brew install pyenv
-brew install postgresql
+#brew install postgresql
 
 brew install rbenv
 
