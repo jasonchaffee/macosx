@@ -70,6 +70,7 @@ brew install tor
 
 brew install vim
 
+brew install watchman
 brew install wget
 brew install wrk
 
