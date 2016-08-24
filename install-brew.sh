@@ -11,6 +11,7 @@ brew tap homebrew/science
 brew tap homebrew/services
 brew tap homebrew/versions
 brew tap homebrew/x11
+brew tap pivotal/tap
 brew tap privacysolutions/i2p
 brew tap yudai/gotty
 brew tap git-duet/tap
@@ -61,6 +62,7 @@ brew install rbenv
 
 brew install scala
 brew install sbt
+brew install spring-cli
 brew install typesafe-activator
 brew install ssh-copy-id
 
