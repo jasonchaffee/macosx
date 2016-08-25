@@ -80,4 +80,5 @@ brew install wrk
 
 brew install zsh
 
-brew cask install shiftit
+brew install Caskroom/cask/minikube
+brew install Caskroom/cask/shiftit
