@@ -48,6 +48,8 @@ brew install httpie
 
 brew install javarepl
 
+brew install kubectl
+
 brew install maven
 brew install macvim
 brew linkapps macvim
