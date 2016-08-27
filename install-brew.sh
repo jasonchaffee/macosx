@@ -64,7 +64,7 @@ brew install rbenv
 
 brew install scala
 brew install sbt
-brew install spring-cli
+brew install springboot
 brew install typesafe-activator
 brew install ssh-copy-id
 
