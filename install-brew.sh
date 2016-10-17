@@ -39,7 +39,7 @@ brew install gnupg
 #brew install gnupg2
 brew install gotty
 brew install gradle
-#brew install graphviz
+brew install graphviz
 
 brew install heroku
 brew install highlight
@@ -82,3 +82,5 @@ brew install zsh
 
 brew install Caskroom/cask/minikube
 brew install Caskroom/cask/shiftit
+
+#curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.11.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
