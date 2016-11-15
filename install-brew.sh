@@ -78,6 +78,8 @@ brew install watchman
 brew install wget
 brew install wrk
 
+brew install xhyve
+
 brew install zsh
 
 brew install Caskroom/cask/minikube
