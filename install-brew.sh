@@ -36,7 +36,6 @@ brew install git-secrets
 brew install git-standup
 #brew install gpg-agent
 brew install gnupg
-#brew install gnupg2
 brew install gotty
 brew install gradle
 brew install graphviz
