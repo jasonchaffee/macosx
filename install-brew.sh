@@ -46,6 +46,7 @@ brew install htop-osx
 brew install httpie
 
 brew install javarepl
+brew install jenv
 
 brew install kubectl
 
