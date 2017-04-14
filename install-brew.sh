@@ -47,12 +47,13 @@ brew install httpie
 
 brew install javarepl
 brew install jenv
+brew install jmeter --with-plugins
 
 brew install kubectl
 
 brew install maven
 brew install macvim
-brew linkapps macvim
+#brew linkapps macvim
 #brew install macvim --override-system-vim
 
 brew install node
