@@ -49,7 +49,7 @@ brew install javarepl
 brew install jenv
 brew install jmeter --with-plugins
 
-brew install kubectl
+#brew install kubectl
 
 brew install maven
 brew install macvim
@@ -75,7 +75,7 @@ brew install tor
 
 brew install vim
 
-brew install watchman
+#brew install watchman
 brew install wget
 brew install wrk
 
@@ -83,7 +83,7 @@ brew install xhyve
 
 brew install zsh
 
-brew install Caskroom/cask/minikube
+#brew install Caskroom/cask/minikube
 brew install Caskroom/cask/shiftit
 
 #curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.11.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
