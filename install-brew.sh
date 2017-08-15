@@ -45,7 +45,7 @@ brew install highlight
 brew install htop-osx
 brew install httpie
 
-brew install javarepl
+#brew install javarepl
 brew install jenv
 brew install jmeter --with-plugins
 
