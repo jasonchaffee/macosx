@@ -30,7 +30,7 @@ brew install git-duet
 brew install git-extras
 brew install git-secret
 brew install git-secrets
-brew install git-standup
+#brew install git-standup
 #brew install gpg-agent
 brew install gnupg
 brew install gotty
