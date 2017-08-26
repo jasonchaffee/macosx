@@ -27,3 +27,5 @@ Setup scripts for Mac OSX
 # chrome
 # sourcetree
 # Github Desktop
+# nvm
+# macvim
