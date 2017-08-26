@@ -6,13 +6,10 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew tap caskroom/cask
 brew tap homebrew/boneyard
-brew tap homebrew/completions
 brew tap homebrew/science
 brew tap homebrew/services
-brew tap homebrew/versions
-brew tap homebrew/x11
 brew tap pivotal/tap
-brew tap privacysolutions/i2p
+#brew tap privacysolutions/i2p
 brew tap yudai/gotty
 brew tap git-duet/tap
 
