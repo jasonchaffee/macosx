@@ -5,7 +5,6 @@
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 brew tap caskroom/cask
-brew tap homebrew/boneyard
 brew tap homebrew/science
 brew tap homebrew/services
 brew tap pivotal/tap
