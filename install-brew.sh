@@ -4,6 +4,8 @@
 #ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+brew analytics off
+
 brew tap caskroom/cask
 brew tap homebrew/science
 brew tap homebrew/services
