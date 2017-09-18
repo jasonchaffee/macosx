@@ -67,6 +67,7 @@ brew install springboot
 brew install typesafe-activator
 brew install ssh-copy-id
 
+brew install tmate
 brew install tmux
 brew install tor
 #brew install tutum
