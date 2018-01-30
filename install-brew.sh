@@ -82,7 +82,9 @@ brew install xhyve
 
 brew install zsh
 
-#brew install Caskroom/cask/minikube
-brew install Caskroom/cask/shiftit
+#brew cask install minikube
+brew cask install shiftit
+brew cask install google-cloud-sdk
 
+#curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 #curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.11.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
