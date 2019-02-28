@@ -44,7 +44,7 @@ brew install httpie
 
 #brew install javarepl
 brew install jenv
-brew install jmeter --with-plugins
+brew install jmeter
 
 #brew install kubectl
 
