@@ -7,7 +7,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew analytics off
 
 brew tap caskroom/cask
-brew tap homebrew/science
 brew tap homebrew/services
 brew tap pivotal/tap
 #brew tap privacysolutions/i2p
