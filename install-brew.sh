@@ -54,6 +54,7 @@ brew install maven
 #brew install macvim --override-system-vim
 
 brew install node
+brew install nvm
 
 brew install pyenv
 #brew install postgresql
