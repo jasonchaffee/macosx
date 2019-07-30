@@ -8,10 +8,10 @@ brew analytics off
 
 brew tap caskroom/cask
 brew tap homebrew/services
-brew tap pivotal/tap
+#brew tap pivotal/tap
 #brew tap privacysolutions/i2p
 brew tap yudai/gotty
-brew tap git-duet/tap
+#brew tap git-duet/tap
 
 brew install autossh
 
@@ -26,7 +26,7 @@ brew install crash
 brew install cryptopp
 
 brew install git
-brew install git-duet
+#brew install git-duet
 brew install git-extras
 brew install git-secret
 brew install git-secrets
@@ -37,7 +37,7 @@ brew install gotty
 brew install gradle
 brew install graphviz
 
-brew install heroku
+#brew install heroku
 brew install highlight
 brew install htop-osx
 brew install httpie
@@ -59,17 +59,16 @@ brew install nvm
 brew install pyenv
 #brew install postgresql
 
-brew install rbenv
+#brew install rbenv
 
 brew install scala
 brew install sbt
-brew install springboot
-brew install typesafe-activator
+#brew install springboot
 brew install ssh-copy-id
 
 brew install tmate
 brew install tmux
-brew install tor
+#brew install tor
 #brew install tutum
 
 brew install vim
@@ -84,7 +83,7 @@ brew install zsh
 
 #brew cask install minikube
 brew cask install shiftit
-brew cask install google-cloud-sdk
+#brew cask install google-cloud-sdk
 
 #curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 #curl -Lo minikube https://storage.googleapis.com/minikube/releases/v0.11.0/minikube-darwin-amd64 && chmod +x minikube && sudo mv minikube /usr/local/bin/
