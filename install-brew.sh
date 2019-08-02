@@ -56,6 +56,7 @@ brew install maven
 brew install node
 brew install nvm
 
+brew install pre-commit
 brew install pyenv
 #brew install postgresql
 
