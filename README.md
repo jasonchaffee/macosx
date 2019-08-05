@@ -23,14 +23,14 @@ Setup scripts for Mac OSX
 ## Postman
 ## Recordit
 ## skype
-## atom
 ## firefox
 ## chrome
 ## sourcetree
 ## Github Desktop
 ## nvm
-## macvim
+## atom
 ## Visual Studio Code
+## macvim
 ## app cleaner
 ## tor browser
 ## gpg suite
