@@ -25,6 +25,8 @@ brew install colortail
 brew install crash
 brew install cryptopp
 
+brew install fish
+
 brew install git
 #brew install git-duet
 brew install git-extras
