@@ -41,7 +41,7 @@ brew install graphviz
 
 #brew install heroku
 brew install highlight
-brew install htop-osx
+brew install htop
 brew install httpie
 
 #brew install javarepl
