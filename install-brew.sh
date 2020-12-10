@@ -22,16 +22,16 @@ brew install colordiff
 brew install colormake
 brew install colorsvn
 brew install colortail
-brew install crash
+#brew install crash
 brew install cryptopp
 
 brew install fish
 
 brew install git
 #brew install git-duet
-brew install git-extras
-brew install git-secret
-brew install git-secrets
+#brew install git-extras
+#brew install git-secret
+#brew install git-secrets
 #brew install git-standup
 #brew install gpg-agent
 #brew install gnupg
@@ -58,23 +58,23 @@ brew install maven
 brew install node
 brew install nvm
 
-brew install pre-commit
+#brew install pre-commit
 brew install pyenv
 #brew install postgresql
 
-#brew install rbenv
+brew install rbenv
 
 brew install scala
 brew install sbt
 #brew install springboot
-brew install ssh-copy-id
+#brew install ssh-copy-id
 
-brew install tmate
-brew install tmux
+#brew install tmate
+#brew install tmux
 #brew install tor
 #brew install tutum
 
-brew install vim
+#brew install vim
 
 #brew install watchman
 brew install wget
