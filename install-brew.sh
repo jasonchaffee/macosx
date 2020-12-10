@@ -23,7 +23,7 @@ brew install colormake
 brew install colorsvn
 brew install colortail
 #brew install crash
-brew install cryptopp
+#brew install cryptopp
 
 brew install fish
 
@@ -40,7 +40,7 @@ brew install gradle
 #brew install graphviz
 
 #brew install heroku
-brew install highlight
+#brew install highlight
 brew install htop
 brew install httpie
 
