@@ -6,11 +6,11 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew analytics off
 
-brew tap caskroom/cask
-brew tap homebrew/services
+#brew tap caskroom/cask
+#brew tap homebrew/services
 #brew tap pivotal/tap
 #brew tap privacysolutions/i2p
-brew tap yudai/gotty
+#brew tap yudai/gotty
 #brew tap git-duet/tap
 
 brew install autossh
@@ -34,10 +34,10 @@ brew install git-secret
 brew install git-secrets
 #brew install git-standup
 #brew install gpg-agent
-brew install gnupg
-brew install gotty
+#brew install gnupg
+#brew install gotty
 brew install gradle
-brew install graphviz
+#brew install graphviz
 
 #brew install heroku
 brew install highlight
@@ -85,7 +85,7 @@ brew install xhyve
 brew install zsh
 
 #brew cask install minikube
-brew cask install shiftit
+#brew cask install shiftit
 #brew cask install google-cloud-sdk
 
 #curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
