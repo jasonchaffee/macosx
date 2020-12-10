@@ -20,7 +20,7 @@ brew install bash
 #brew install cmake
 brew install colordiff
 brew install colormake
-brew install colorsvn
+#brew install colorsvn
 brew install colortail
 #brew install crash
 #brew install cryptopp
@@ -42,7 +42,7 @@ brew install gradle
 #brew install heroku
 #brew install highlight
 brew install htop
-brew install httpie
+#brew install httpie
 
 #brew install javarepl
 brew install jenv
@@ -59,10 +59,10 @@ brew install node
 brew install nvm
 
 #brew install pre-commit
-brew install pyenv
+#brew install pyenv
 #brew install postgresql
 
-brew install rbenv
+#brew install rbenv
 
 brew install scala
 brew install sbt
@@ -77,7 +77,7 @@ brew install sbt
 #brew install vim
 
 #brew install watchman
-brew install wget
+#brew install wget
 brew install wrk
 
 brew install xhyve
