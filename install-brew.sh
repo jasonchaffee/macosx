@@ -13,6 +13,7 @@ brew analytics off
 #brew tap yudai/gotty
 #brew tap git-duet/tap
 
+brew intall Antigen
 brew install autossh
 
 brew install bash
