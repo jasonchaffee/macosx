@@ -67,6 +67,9 @@ brew install nvm
 
 brew install scala
 brew install sbt
+
+brew tap spring-io/tap
+brew install spring-boot
 #brew install springboot
 #brew install ssh-copy-id
 
