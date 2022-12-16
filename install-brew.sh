@@ -85,7 +85,7 @@ brew install spring-boot
 #brew install wget
 brew install wrk
 
-brew install xhyve
+#brew install xhyve
 
 brew install zsh
 
