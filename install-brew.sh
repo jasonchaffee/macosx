@@ -1,12 +1,22 @@
 #!/usr/bin/env bash
 
-
-#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"
-#ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-#/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 brew analytics off
+
+brew install antidote
+brew install colordiff
+brew install colormake
+brew install colortail
+brew install htop
+brew install mise
+
+
+brew install --cask claude-code
+brew install --cask codex
+
+#brew tap spring-io/tap
+#brew install spring-boot
 
 #brew tap caskroom/cask
 #brew tap homebrew/services
@@ -15,22 +25,19 @@ brew analytics off
 #brew tap yudai/gotty
 #brew tap git-duet/tap
 
-brew install antigen
-brew install autossh
+#brew install antigen
+#brew install autossh
 
-brew install bash
+#brew install bash
 
 #brew install cmake
-brew install colordiff
-brew install colormake
 #brew install colorsvn
-brew install colortail
 #brew install crash
 #brew install cryptopp
 
-brew install fish
+#brew install fish
 
-brew install git
+#brew install git
 #brew install git-duet
 #brew install git-extras
 #brew install git-secret
@@ -39,27 +46,27 @@ brew install git
 #brew install gpg-agent
 #brew install gnupg
 #brew install gotty
-brew install gradle
+#brew install gradle
 #brew install graphviz
 
 #brew install heroku
 #brew install highlight
-brew install htop
+
 #brew install httpie
 
 #brew install javarepl
-brew install jenv
-brew install jmeter
+#brew install jenv
+#brew install jmeter
 
 #brew install kubectl
 
-brew install maven
+#brew install maven
 #brew install macvim
 #brew linkapps macvim
 #brew install macvim --override-system-vim
 
-brew install node
-brew install nvm
+#brew install node
+#brew install nvm
 
 #brew install pre-commit
 #brew install pyenv
@@ -67,11 +74,9 @@ brew install nvm
 
 #brew install rbenv
 
-brew install scala
-brew install sbt
+#brew install scala
+#brew install sbt
 
-brew tap spring-io/tap
-brew install spring-boot
 #brew install springboot
 #brew install ssh-copy-id
 
@@ -84,11 +89,10 @@ brew install spring-boot
 
 #brew install watchman
 #brew install wget
-brew install wrk
 
 #brew install xhyve
 
-brew install zsh
+#brew install zsh
 
 #brew cask install minikube
 #brew cask install shiftit
