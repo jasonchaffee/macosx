@@ -4,6 +4,7 @@
 ./color-commands/install
 ./htop/install
 ./mise/install
+./ice/install
 ./claude-code/install
 ./codex/install
 ./cursor/install
