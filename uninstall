@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+./mise/uninstall
+./claude-code/uninstall
+./codex/uninstall
+./cursor/uninstall
+
+./brew/uninstall

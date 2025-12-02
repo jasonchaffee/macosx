@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+./brew/install
+./mise/install
+./claude-code/install
+./codex/install
+./cursor/install

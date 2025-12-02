@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+brew uninstall colordiff
+brew uninstall colormake
+brew uninstall colortail
+brew uninstall htop
