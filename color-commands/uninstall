@@ -3,4 +3,3 @@
 brew uninstall colordiff
 brew uninstall colormake
 brew uninstall colortail
-brew uninstall htop

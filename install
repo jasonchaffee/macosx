@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 ./brew/install
+./antidote/install
+./color-commands/install
+./htop/install
 ./mise/install
 ./claude-code/install
 ./codex/install

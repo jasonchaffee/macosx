@@ -3,4 +3,3 @@
 brew install colordiff
 brew install colormake
 brew install colortail
-brew install htop
