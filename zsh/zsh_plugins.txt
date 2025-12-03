@@ -105,26 +105,26 @@ zsh-users/zsh-syntax-highlighting
 #romkatv/powerlevel10k kind:fpath
 
 # jasonchaffee: zsh plugins
-jasonchaffee/dotfiles path:plugins/antigravity
-jasonchaffee/dotfiles path:plugins/brew
-jasonchaffee/dotfiles path:plugins/compressed
-jasonchaffee/dotfiles path:plugins/dict
-jasonchaffee/dotfiles path:plugins/editor
-jasonchaffee/dotfiles path:plugins/git
-jasonchaffee/dotfiles path:plugins/gradle
-jasonchaffee/dotfiles path:plugins/grep
-jasonchaffee/dotfiles path:plugins/java
-jasonchaffee/dotfiles path:plugins/maven
-jasonchaffee/dotfiles path:plugins/mise
-jasonchaffee/dotfiles path:plugins/path
-jasonchaffee/dotfiles path:plugins/ps
-jasonchaffee/dotfiles path:plugins/terminal
+jasonchaffee/zsh path:plugins/antigravity
+jasonchaffee/zsh path:plugins/brew
+jasonchaffee/zsh path:plugins/compressed
+jasonchaffee/zsh path:plugins/dict
+jasonchaffee/zsh path:plugins/editor
+jasonchaffee/zsh path:plugins/git
+jasonchaffee/zsh path:plugins/gradle
+jasonchaffee/zsh path:plugins/grep
+jasonchaffee/zsh path:plugins/java
+jasonchaffee/zsh path:plugins/maven
+jasonchaffee/zsh path:plugins/mise
+jasonchaffee/zsh path:plugins/path
+jasonchaffee/zsh path:plugins/ps
+jasonchaffee/zsh path:plugins/terminal
 
-# oh-my-zsh: Jason Chaffee Theme
-jasonchaffee/dotfiles path:themes/jasonchaffee
+# jasonchaffee: oh-my-zsh jasonchaffee theme
+jasonchaffee/zsh path:themes/jasonchaffee
 
-#jasonchaffee/dotfiles path:plugins/checks
-#jasonchaffee/dotfiles path:plugins/alias
-#jasonchaffee/dotfiles path:plugins/functions
-#jasonchaffee/dotfiles path:plugins/exports
+#jasonchaffee/zsh path:plugins/checks
+#jasonchaffee/zsh path:plugins/alias
+#jasonchaffee/zsh path:plugins/functions
+#jasonchaffee/zsh path:plugins/exports
  
