@@ -122,9 +122,3 @@ jasonchaffee/zsh path:plugins/terminal
 
 # jasonchaffee: oh-my-zsh jasonchaffee theme
 jasonchaffee/zsh path:themes/jasonchaffee
-
-#jasonchaffee/zsh path:plugins/checks
-#jasonchaffee/zsh path:plugins/alias
-#jasonchaffee/zsh path:plugins/functions
-#jasonchaffee/zsh path:plugins/exports
- 
