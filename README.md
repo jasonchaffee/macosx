@@ -1,2 +1,2 @@
-# macosx
-Setup scripts for Mac OSX
+# macOS
+Setup scripts for macOS
