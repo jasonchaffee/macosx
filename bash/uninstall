@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Backing up .bashrc"
+cp -v ${HOME}/.bashrc ${HOME}/.bashrc.bash.bak
+
+echo "Uninstalling .bashrc"
+rm -f ${HOME}/.bashrc

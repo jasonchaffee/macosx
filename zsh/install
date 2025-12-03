@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+BASE_DIR="$(pwd)"
+
+echo "Backing up .zsh_plugins.txt"
+cp -v ${HOME}/.zsh_plugins.txt ${HOME}/.zsh_plugins.txt.zsh.bak
+
+echo "Installing .zsh_plugins.txt"
+cp -v ${BASE_DIR}/zsh_plugins.txt ${HOME}/.zsh_plugins.txt
+
+echo "Backing up .zshrc"
+cp -v ${HOME}/.zshrc ${HOME}/.zshrc.zsh.bak
+
+echo "Installing .zshrc"
+cp -v ${BASE_DIR}/zshrc ${HOME}/.zshrc

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+BASE_DIR="$(pwd)"
+
+echo "Backing up .bashrc"
+cp -v ${HOME}/.bashrc ${HOME}/.bashrc.bash.bak
+
+echo "Installing .bashrc"
+cp -v ${BASE_DIR}/bashrc ${HOME}/.bashrc

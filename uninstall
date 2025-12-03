@@ -8,5 +8,9 @@
 ./claude-code/uninstall
 ./codex/uninstall
 ./cursor/uninstall
+./vim/uninstall
+./zsh/uninstall
+./tmux/uninstall
+./bash/uninstall
 ./git/uninstall
 ./brew/uninstall

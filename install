@@ -4,6 +4,10 @@
 ./color-commands/install
 ./htop/install
 ./mise/install
+./vim/install
+./zsh/install
+./tmux/install
+./bash/install
 ./ice/install
 ./git/install
 ./claude-code/install
