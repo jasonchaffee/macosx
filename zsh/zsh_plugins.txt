@@ -120,8 +120,8 @@ jasonchaffee/dotfiles path:plugins/path
 jasonchaffee/dotfiles path:plugins/ps
 jasonchaffee/dotfiles path:plugins/terminal
 
-# oh-my-zsh: Chaffee Theme
-jasonchaffee/chaffee.zsh-theme
+# oh-my-zsh: Jason Chaffee Theme
+jasonchaffee/dotfiles path:themes/jasonchaffee.zsh-theme
 
 #jasonchaffee/dotfiles path:plugins/checks
 #jasonchaffee/dotfiles path:plugins/alias
