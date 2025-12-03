@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+echo "Backing up .gitignore"
+cp -v ${HOME}/.gitignore ${HOME}/.gitignore.git.bak
+
+echo "Uninstalling .gitignore"
+rm -f ${HOME}/.gitignore

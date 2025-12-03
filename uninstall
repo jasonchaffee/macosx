@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 
+./antidote/uninstall
+./color-commands/uninstall
+./htop/uninstall
+./ice/uninstall
 ./mise/uninstall
 ./claude-code/uninstall
 ./codex/uninstall
 ./cursor/uninstall
-
+./git/uninstall
 ./brew/uninstall

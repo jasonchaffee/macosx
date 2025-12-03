@@ -5,6 +5,7 @@
 ./htop/install
 ./mise/install
 ./ice/install
+./git/install
 ./claude-code/install
 ./codex/install
 ./cursor/install
