@@ -2,17 +2,22 @@
 
 brew uninstall mise
 
+if [[ -d "${HOME}/Library/Caches/mise" ]]; then
+    echo "Removing ~/Library/Caches/mise"
+    rm -rf ${HOME}/Library/Caches/mise
+fi
+
 if [[ -d "${HOME}/.config/mise" ]]; then
-    echo "Removing .config/mise"
+    echo "Removing ~/.config/mise"
     rm -rf ${HOME}/.config/mise
 fi
 
 if [[ -d "${HOME}/.local/share/mise" ]]; then
-    echo "Removing .local/share/mise"
+    echo "Removing ~/.local/share/mise"
     rm -rf ${HOME}/.local/share/mise
 fi
 
 if [[ -d "${HOME}/.local/state/mise" ]]; then
-    echo "Removing .local/state/mise"
+    echo "Removing ~/.local/state/mise"
     rm -rf ${HOME}/.local/state/mise
 fi

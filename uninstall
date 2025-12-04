@@ -9,6 +9,7 @@ ${BASE_DIR}/claude-code/uninstall
 ${BASE_DIR}/codex/uninstall
 ${BASE_DIR}/color-commands/uninstall
 ${BASE_DIR}/cursor/uninstall
+${BASE_DIR}/gcloud/uninstall
 ${BASE_DIR}/gemini-cli/uninstall
 ${BASE_DIR}/git/uninstall
 ${BASE_DIR}/gradle/uninstall

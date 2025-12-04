@@ -20,6 +20,7 @@ ${BASE_DIR}/zsh/install
 
 # Need to run these after mise is installed and activated.
 ${BASE_DIR}/bat/install
+${BASE_DIR}/gcloud/install
 ${BASE_DIR}/gemini-cli/install
 ${BASE_DIR}/gradle/install
 ${BASE_DIR}/java/install
