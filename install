@@ -24,3 +24,4 @@ ${BASE_DIR}/gradle/install
 ${BASE_DIR}/java/install
 ${BASE_DIR}/maven/install
 ${BASE_DIR}/node/install
+${BASE_DIR}/python/install

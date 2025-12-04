@@ -1,18 +1,26 @@
 #!/usr/bin/env bash
 BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
+
+${BASE_DIR}/antidote/uninstall
 ${BASE_DIR}/bash/uninstall
-${BASE_DIR}/color-commands/uninstall
-${BASE_DIR}/htop/uninstall
-${BASE_DIR}/ice/uninstall
-${BASE_DIR}/mise/uninstall
+${BASE_DIR}/bat/uninstall
 ${BASE_DIR}/claude-code/uninstall
 ${BASE_DIR}/codex/uninstall
+${BASE_DIR}/color-commands/uninstall
 ${BASE_DIR}/cursor/uninstall
+${BASE_DIR}/git/uninstall
+${BASE_DIR}/gradle/uninstall
+${BASE_DIR}/htop/uninstall
+${BASE_DIR}/ice/uninstall
+${BASE_DIR}/java/uninstall
+${BASE_DIR}/maven/uninstall
+${BASE_DIR}/node/uninstall
+${BASE_DIR}/python/uninstall
+${BASE_DIR}/tmux/uninstall
 ${BASE_DIR}/vim/uninstall
 ${BASE_DIR}/zsh/uninstall
-${BASE_DIR}/tmux/uninstall
-${BASE_DIR}/git/uninstall
 
-# Uninstall brew last
+# Uninstall mise and  brew last
+${BASE_DIR}/mise/uninstall
 ${BASE_DIR}/brew/uninstall
