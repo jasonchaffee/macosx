@@ -10,7 +10,6 @@ ${BASE_DIR}/claude-code/install
 ${BASE_DIR}/codex/install
 ${BASE_DIR}/color-commands/install
 ${BASE_DIR}/cursor/install
-${BASE_DIR}/gemini-cli/install
 ${BASE_DIR}/git/install
 ${BASE_DIR}/htop/install
 ${BASE_DIR}/ice/install
@@ -21,6 +20,7 @@ ${BASE_DIR}/zsh/install
 
 # Need to run these after mise is installed and activated.
 ${BASE_DIR}/bat/install
+${BASE_DIR}/gemini-cli/install
 ${BASE_DIR}/gradle/install
 ${BASE_DIR}/java/install
 ${BASE_DIR}/maven/install
