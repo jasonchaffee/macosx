@@ -13,4 +13,6 @@
 ./tmux/uninstall
 ./bash/uninstall
 ./git/uninstall
+
+# Uninstall brew last
 ./brew/uninstall

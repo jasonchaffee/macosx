@@ -1,15 +1,18 @@
 #!/usr/bin/env bash
+
+# Install brew first
 ./brew/install
+
 ./antidote/install
-./color-commands/install
-./htop/install
-./mise/install
-./vim/install
-./zsh/install
-./tmux/install
 ./bash/install
-./ice/install
-./git/install
 ./claude-code/install
 ./codex/install
+./color-commands/install
 ./cursor/install
+./git/install
+./htop/install
+./ice/install
+./mise/install
+#./tmux/install
+./vim/install
+./zsh/install
