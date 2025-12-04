@@ -1,14 +1,18 @@
 #!/usr/bin/env bash
 BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-# Install brew, zsh, ant
-echo "Install brew"
-${BASE_DIR}/brew/install
-echo "Brew install done!"
+echo "Install bash"
+${BASE_DIR}/bash/install
+echo "Bash install done!"
 
 echo "Install zsh"
 ${BASE_DIR}/zsh/install
 echo "Zsh install done!"
+
+# Install brew, zsh, ant
+echo "Install brew"
+${BASE_DIR}/brew/install
+echo "Brew install done!"
 
 echo "Install antidote"
 ${BASE_DIR}/antidote/install
@@ -21,10 +25,6 @@ echo "Mise install done!"
 echo "Install bat"
 ${BASE_DIR}/bat/install
 echo "Bat install done!"
-
-echo "Install bash"
-${BASE_DIR}/bash/install
-echo "Bash install done!"
 
 echo "Install claude-code"
 ${BASE_DIR}/claude-code/install

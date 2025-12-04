@@ -13,5 +13,5 @@ if [[ -s "${HOME}/.zshrc " ]]; then
     cp -v ${HOME}/.zshrc ${HOME}/.zshrc.zsh.bak
 fi
 
-echo "Uninstalling .zshrc"
-rm -f ${HOME}/.zshrc
+#echo "Uninstalling .zshrc"
+#rm -f ${HOME}/.zshrc

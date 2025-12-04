@@ -22,7 +22,7 @@ ${BASE_DIR}/python/uninstall
 #${BASE_DIR}/tmux/uninstall
 ${BASE_DIR}/vim/uninstall
 
-# Uninstall mise, then brew, and then zsh last
+#Uninstall mise, then brew, and then zsh last
 ${BASE_DIR}/mise/uninstall
 ${BASE_DIR}/brew/uninstall
 ${BASE_DIR}/zsh/uninstall
