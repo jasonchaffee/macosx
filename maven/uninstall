@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mise unuse -g maven
+mise uninstall --all maven

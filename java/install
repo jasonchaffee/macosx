@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+echo "Installing Java Zulu"
+mise use -g java@zulu

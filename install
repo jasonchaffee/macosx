@@ -17,3 +17,10 @@ ${BASE_DIR}/mise/install
 #${BASE_DIR}/tmux/install
 ${BASE_DIR}/vim/install
 ${BASE_DIR}/zsh/install
+
+# Need to run these after mise is installed and activated.
+${BASE_DIR}/bat/install
+${BASE_DIR}/gradle/install
+${BASE_DIR}/java/install
+${BASE_DIR}/maven/install
+${BASE_DIR}/node/install
