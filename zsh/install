@@ -17,3 +17,5 @@ fi
 
 echo "Installing .zshrc"
 cp -v ${BASE_DIR}/zshrc ${HOME}/.zshrc
+
+. ${HOME}/.zshrc
