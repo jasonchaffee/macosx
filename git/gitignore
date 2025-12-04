@@ -19,6 +19,9 @@
 *.war
 *.zip
 
+# Cursor
+.history
+
 # Logs
 *.log
 
