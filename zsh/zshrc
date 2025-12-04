@@ -13,12 +13,16 @@ fi
 # Antidote ZSH Plugin Manager
 # -------------------------------------------------------------------
 # Source Antidote from Brew Install
-if [[ -f "$(brew --prefix)/opt/antidote/share/antidote/antidote.zsh" ]]; then
-    . "$(brew --prefix)/opt/antidote/share/antidote/antidote.zsh"
+if command -v brew >/dev/null 2>&1; then
+    if [[ -f "$(brew --prefix)/opt/antidote/share/antidote/antidote.zsh" ]]; then
+        . "$(brew --prefix)/opt/antidote/share/antidote/antidote.zsh"
 
-    # use friendly names
-    zstyle ':antidote:bundle' use-friendly-names 'yes'
+        # use friendly names
+        zstyle ':antidote:bundle' use-friendly-names 'yes'
+    fi
 
-    # initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
-    antidote load
+     if command -v antidote >/dev/null 2>&1; then
+        # initialize plugins statically with ${ZDOTDIR:-~}/.zsh_plugins.txt
+        antidote load
+    fi
 fi

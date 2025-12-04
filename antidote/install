@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
-brew install antidote
+if command -v brew >/dev/null 2>&1; then
+    brew install antidote
+fi
+
+. ${HOME}/.zshrc

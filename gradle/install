@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-mise use -g gradle
+if command -v mise >/dev/null 2>&1; then
+    mise use -g gradle
+fi

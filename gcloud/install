@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-
-mise use -g gcloud
+if command -v mise >/dev/null 2>&1; then
+    mise use -g gcloud
+fi

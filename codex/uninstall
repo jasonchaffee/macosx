@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 
-brew uninstall --cask codex
+if command -v brew >/dev/null 2>&1; then
+    brew uninstall --cask codex
+fi

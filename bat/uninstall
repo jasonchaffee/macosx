@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-mise unuse -g bat
-mise uninstall --all bat
+if command -v mise >/dev/null 2>&1; then
+    mise unuse -g bat
+    mise uninstall --all bat
+fi

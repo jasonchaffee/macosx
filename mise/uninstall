@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-brew uninstall mise
+if command -v brew >/dev/null 2>&1; then
+    brew uninstall mise
+fi
 
 if [[ -d "${HOME}/Library/Caches/mise" ]]; then
     echo "Removing ~/Library/Caches/mise"

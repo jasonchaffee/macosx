@@ -19,10 +19,10 @@ ${BASE_DIR}/java/uninstall
 ${BASE_DIR}/maven/uninstall
 ${BASE_DIR}/node/uninstall
 ${BASE_DIR}/python/uninstall
-${BASE_DIR}/tmux/uninstall
+#${BASE_DIR}/tmux/uninstall
 ${BASE_DIR}/vim/uninstall
-${BASE_DIR}/zsh/uninstall
 
-# Uninstall mise and  brew last
+# Uninstall mise, then brew, and then zsh last
 ${BASE_DIR}/mise/uninstall
 ${BASE_DIR}/brew/uninstall
+${BASE_DIR}/zsh/uninstall

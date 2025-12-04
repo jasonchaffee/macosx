@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-mise unuse -g gemini-cli
-mise uninstall --all gemini-cli
+if command -v mise >/dev/null 2>&1; then
+    mise unuse -g gcloud
+    mise uninstall --all gcloud
+fi

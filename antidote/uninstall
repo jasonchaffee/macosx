@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-brew uninstall antidote
+if command -v brew >/dev/null 2>&1; then
+    brew uninstall antidote
+fi
 
 if [[ -d "${HOME}/Library/Caches/antidote" ]]; then
     echo "Removing ~/Library/Caches/antidote"

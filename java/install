@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Installing Java Zulu"
-mise use -g java@zulu
+if command -v mise >/dev/null 2>&1; then
+    echo "Installing Java Zulu"
+    mise use -g java@zulu
+fi
