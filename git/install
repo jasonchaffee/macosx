@@ -1,16 +1,20 @@
 #!/usr/bin/env bash
 
-BASE_DIR="$(pwd)"
+BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-echo "Backing up .gitignore"
-cp -v ${HOME}/.gitignore ${HOME}/.gitignore.git.bak
+if [[ -s "${HOME}/.gitignore " ]]; then
+    echo "Backing up .gitignore"
+    cp -v ${HOME}/.gitignore ${HOME}/.gitignore.git.bak
+fi
 
 echo "Installing .gitignore"
 cp -v ${BASE_DIR}/gitignore ${HOME}/.gitignore
 
+
 echo "Configuring git..."
 echo "User..."
 if [[ "$GIT_USER_NAME" ]]; then
+
     git config --global user.name "$GIT_USER_NAME"
 fi
 

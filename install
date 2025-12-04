@@ -1,18 +1,19 @@
 #!/usr/bin/env bash
+BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
 # Install brew first
-./brew/install
+${BASE_DIR}/brew/install
 
-./antidote/install
-./bash/install
-./claude-code/install
-./codex/install
-./color-commands/install
-./cursor/install
-./git/install
-./htop/install
-./ice/install
-./mise/install
-#./tmux/install
-./vim/install
-./zsh/install
+${BASE_DIR}/antidote/install
+${BASE_DIR}/bash/install
+${BASE_DIR}/claude-code/install
+${BASE_DIR}/codex/install
+${BASE_DIR}/color-commands/install
+${BASE_DIR}/cursor/install
+${BASE_DIR}/git/install
+${BASE_DIR}/htop/install
+${BASE_DIR}/ice/install
+${BASE_DIR}/mise/install
+#${BASE_DIR}/tmux/install
+${BASE_DIR}/vim/install
+${BASE_DIR}/zsh/install

@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 
-BASE_DIR="$(pwd)"
+BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-echo "Backing up .vimrc"
-cp -v ${HOME}/.vimrc ${HOME}/.vimrc.vim.bak
+if [[ -s "${HOME}/.vimrc " ]]; then
+    echo "Backing up .vimrc"
+    cp -v ${HOME}/.vimrc ${HOME}/.vimrc.vim.bak
+fi
 
 echo "Installing .vimrc"
 cp -v ${BASE_DIR}/vimrc ${HOME}/.vimrc

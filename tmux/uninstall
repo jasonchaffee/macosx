@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-echo "Backing up .tmux.conf"
-cp -v ${HOME}/.tmux.conf ${HOME}/.tmux.conf.tmux.bak
+if [[ -s "${HOME}/.tmux.conf " ]]; then
+    echo "Backing up .tmux.conf"
+    cp -v ${HOME}/.tmux.conf ${HOME}/.tmux.conf.tmux.bak
+fi
 
 echo "Uninstalling .tmux.conf"
 rm -f ${HOME}/.tmux.conf
