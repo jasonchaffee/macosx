@@ -1,3 +1,13 @@
 #!/usr/bin/env bash
 
 brew uninstall antidote
+
+if [[ -d "${HOME}/Library/Caches/antidote" ]]; then
+    echo "Removing ~/Library/Caches/antidote"
+    rm -rf ${HOME}/Library/Caches/antidote
+fi
+
+if [[ -s "${HOME}/.zsh_plugins.zsh" ]]; then
+    echo "Removing ~/.zsh_plugins.zsh"
+    rm -f ${HOME}/.zsh_plugins.zsh
+fi

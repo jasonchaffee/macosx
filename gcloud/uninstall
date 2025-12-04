@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mise unuse -g gemini-cli
+mise uninstall --all gemini-cli
