@@ -1,87 +1,25 @@
 #!/usr/bin/env bash
 BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-echo "Install bash"
 ${BASE_DIR}/bash/install
-echo "Bash install done!"
-
-echo "Install zsh"
 ${BASE_DIR}/zsh/install
-echo "Zsh install done!"
-
-# Install brew, zsh, ant
-echo "Install brew"
 ${BASE_DIR}/brew/install
-echo "Brew install done!"
 
-echo "Install antidote"
 ${BASE_DIR}/antidote/install
-echo "Antidote install done!"
-
-echo "Install mise"
 ${BASE_DIR}/mise/install
-echo "Mise install done!"
-
-echo "Install bat"
 ${BASE_DIR}/bat/install
-echo "Bat install done!"
-
-echo "Install claude-code"
 ${BASE_DIR}/claude-code/install
-echo "Claude-code install done!"
-
-echo "Install codex"
 ${BASE_DIR}/codex/install
-echo "Codex install done!"
-
-echo "Install color-commands"
 ${BASE_DIR}/color-commands/install
-echo "Color-commands install done!"
-
-echo "Install cursor"
 ${BASE_DIR}/cursor/install
-echo "Cursor install done!"
-
-echo "Install gcloud"
 ${BASE_DIR}/gcloud/install
-echo "Gcloud install done!"
-
-echo "Install gemini-cli"
 ${BASE_DIR}/gemini-cli/install
-echo "Gemini-cli install done!"
-
-echo "Install git"
 ${BASE_DIR}/git/install
-echo "Git install done!"
-
-echo "Install gradle"
 ${BASE_DIR}/gradle/install
-echo "Gradle install done!"
-
-echo "Install htop"
 ${BASE_DIR}/htop/install
-echo "Htop install done!"
-
-echo "Install ice"
 ${BASE_DIR}/ice/install
-echo "Ice install done!"
-
-echo "Install java"
 ${BASE_DIR}/java/install
-echo "Java install done!"
-
-echo "Install maven"
 ${BASE_DIR}/maven/install
-echo "Maven install done!"
-
-echo "Install node"
 ${BASE_DIR}/node/install
-echo "Node install done!"
-
-echo "Install python"
 ${BASE_DIR}/python/install
-echo "Python install done!"
-
-echo "Install vim"
 ${BASE_DIR}/vim/install
-echo "Vim install done!"
