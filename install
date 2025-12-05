@@ -10,6 +10,7 @@ ${BASE_DIR}/brew/install
 
 ${BASE_DIR}/antidote/install
 ${BASE_DIR}/mise/install
+${BASE_DIR}/node/install
 ${BASE_DIR}/bat/install
 ${BASE_DIR}/claude-code/install
 ${BASE_DIR}/codex/install
@@ -23,6 +24,5 @@ ${BASE_DIR}/htop/install
 ${BASE_DIR}/ice/install
 ${BASE_DIR}/java/install
 ${BASE_DIR}/maven/install
-${BASE_DIR}/node/install
 ${BASE_DIR}/python/install
 ${BASE_DIR}/vim/install
