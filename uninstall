@@ -13,7 +13,7 @@ ${BASE_DIR}/gemini-cli/uninstall
 ${BASE_DIR}/git/uninstall
 ${BASE_DIR}/gradle/uninstall
 ${BASE_DIR}/htop/uninstall
-${BASE_DIR}/ice/uninstall
+#${BASE_DIR}/ice/uninstall
 ${BASE_DIR}/java/uninstall
 ${BASE_DIR}/maven/uninstall
 ${BASE_DIR}/node/uninstall
