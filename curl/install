@@ -2,4 +2,7 @@
 
 if command -v brew >/dev/null 2>&1; then
     brew install curl
-fi
+
+    #export PATH="/opt/homebrew/opt/curl/bin:$PATH"
+    #export CURL_CA_BUNDLE="/opt/homebrew/etc/openssl/cert.pem"
+fi  
