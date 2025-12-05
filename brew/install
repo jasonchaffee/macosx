@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env zsh
 /bin/bash -c "$(curl -fsSL --insecure https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
 if command -v brew >/dev/null 2>&1; then

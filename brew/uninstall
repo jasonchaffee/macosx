@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env zsh
 /bin/bash -c "$(curl -fsSLn --insecure https://raw.githubusercontent.com/Homebrew/install/master/uninstall.sh)"

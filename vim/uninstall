@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env zsh
 if [[ -s "${HOME}/.vimrc " ]]; then
     echo "Backing up .vimrc"
     cp -v ${HOME}/.vimrc ${HOME}/.vimrc.vim.bak

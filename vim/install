@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
-BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
+BASE_DIR=$( cd $( dirname ${(%):-%x} ) &> /dev/null && pwd )
 
 if [[ -s "${HOME}/.vimrc " ]]; then
     echo "Backing up .vimrc"

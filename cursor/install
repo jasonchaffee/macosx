@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env zsh
 curl https://cursor.com/install -fsSL | bash

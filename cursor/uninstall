@@ -1,3 +1,2 @@
-#!/usr/bin/env bash
-
+#!/usr/bin/env zsh
 echo "No uninstall script for cursor"
