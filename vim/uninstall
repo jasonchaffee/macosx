@@ -7,3 +7,6 @@ fi
 
 echo "Uninstalling .vimrc"
 rm -f ${HOME}/.vimrc
+
+echo "Removing ~/.vim"
+rm -rf ${HOME}/.vim
