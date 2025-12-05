@@ -18,7 +18,10 @@ ${BASE_DIR}/claude-code/install
 ${BASE_DIR}/codex/install
 ${BASE_DIR}/color-commands/install
 ${BASE_DIR}/cursor/install
+
+${BASE_DIR}/python/install # Gcloud newer python
 ${BASE_DIR}/gcloud/install
+
 ${BASE_DIR}/gemini-cli/install
 ${BASE_DIR}/git/install
 ${BASE_DIR}/gradle/install
@@ -26,5 +29,4 @@ ${BASE_DIR}/htop/install
 ${BASE_DIR}/ice/install
 ${BASE_DIR}/java/install
 ${BASE_DIR}/maven/install
-${BASE_DIR}/python/install
 ${BASE_DIR}/vim/install
