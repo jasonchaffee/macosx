@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
 BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-# Need to install curl first for SSL issues
-${BASE_DIR}/curl/install
-
 ${BASE_DIR}/bash/install
 ${BASE_DIR}/zsh/install
 ${BASE_DIR}/brew/install
+# Need to install curl first for SSL issues
+${BASE_DIR}/curl/install
 
 ${BASE_DIR}/antidote/install
 ${BASE_DIR}/mise/install

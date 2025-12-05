@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 BASE_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )"
 
-
 ${BASE_DIR}/antidote/uninstall
 ${BASE_DIR}/bash/uninstall
 ${BASE_DIR}/bat/uninstall
@@ -19,7 +18,6 @@ ${BASE_DIR}/java/uninstall
 ${BASE_DIR}/maven/uninstall
 ${BASE_DIR}/node/uninstall
 ${BASE_DIR}/python/uninstall
-#${BASE_DIR}/tmux/uninstall
 ${BASE_DIR}/vim/uninstall
 
 #Uninstall mise, then brew, and then zsh last
